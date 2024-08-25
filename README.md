@@ -63,6 +63,14 @@ I've included in this repo my notes, logs, dump of stock mtd0 "ALL", builds of t
 
 Have fun, hope this helps!! -cheers- 🍻
 
+SKILLZ CREDITS:
+
+`Reese`, `cd4046bf`, `frollic`, `Borromini`, `shep`, `jaystone10`, `skittles1200`, `spankythemonkey`, `jdwl1o1`, `slh`
+
+and 🥁 OpenWrt community...
+
+https://forum.openwrt.org/t/support-for-victure-wr1200-ac1200/116138
+
 REFERENCES:
 
 - https://openwrt.org/docs/guide-user/installation/generic.flashing.tftp
