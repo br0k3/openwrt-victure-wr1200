@@ -1,0 +1,1159 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2024.08.15 17:13:24 =~=~=~=~=~=~=~=~=~=~=~=
+OK
+Image2 rootf(0)
+[   79.896000] get_wdev_by_idx: invalid idx(0)
+et_wdev_by_idx: invalid idx(0)
+[   74.864000] get_wdev_by_idx: invalid idx(0)
+[   79.896000] get_wdev_by_idx: invalid idx(0)
+
+
+BusyBox v1.23.2 (2020-06-29 17:51:00 CST) built-in shell (ash)
+
+  _______                     ________        __
+ |       |.-----.-----.-----.|  |  |  |.----.|  |_
+ |   -   ||  _  |  -__|     ||  |  |  ||   _||   _|
+ |_______||   __|_____|__|__||________||__|  |____|
+          |__| W I R E L E S S   F R E E D O M
+ -----------------------------------------------------
+ CHAOS CALMER (Chaos Calmer, unknown)
+ -----------------------------------------------------
+  * 1 1/2 oz Gin            Shake with a glassful
+  * 1/4 oz Triple Sec       of broken ice and pour
+  * 3/4 oz Lime Juice       unstrained into a goblet.
+  * 1 1/2 oz Orange Juice
+  * 1 tsp. Grenadine Syrup
+ -----------------------------------------------------
+[   93.260000] Device Instance
+[   93.264000] WDEV 00:
+Name:rai0
+[   93.272000] Wdev(list) Idx:0
+[   93.276000]  Idx:5
+[   93.280000] WDEV 01:
+[   93.288000] WDEV 02:
+[   93.292000] WDEV 03:
+[   93.296000] WDEV 04:
+[   93.300000] WDEV 05:
+[   93.304000] WDEV 06:
+[   93.308000] WDEV 07:
+[   93.312000] WDEV 08:
+[   93.320000] WDEV 09:
+[   93.324000] WDEV 10:
+[   93.328000] WDEV 11:
+[   93.332000] WDEV 12:
+[   93.336000] WDEV 13:
+[   93.340000] WDEV 14:
+[   93.344000] WDEV 15:
+[   93.348000] WDEV 16:
+[   93.356000] WDEV 17:
+[   94.992000] get_wdev_by_idx: invalid idx(0)
+[   95.816000] br-lan: port 1(eth0) entered disabled state
+[   95.828000] device eth0 left promiscuous mode
+[   95.836000] br-lan: port 1(eth0) entered disabled state
+[   95.848000] ra2880stop()...Done
+[   95.852000] eth1: ===> VirtualIF_close
+[   95.864000] Free TX/RX Ring Memory!
+[   95.872000] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   95.884000] device ra0 left promiscuous mode
+[   95.892000] br-lan: port 2(ra0) entered disabled state
+[   95.900000] device ra1 left promiscuous mode
+[   95.912000] br-lan: port 3(ra1) entered disabled state
+[   95.920000] device ra2 left promiscuous mode
+[   95.928000] br-lan: port 4(ra2) entered disabled state
+[   95.940000] device ra3 left promiscuous mode
+[   95.948000] br-lan: port 5(ra3) entered disabled state
+[   99.144000] Stopped WatchDog Timer.
+[   99.148000] Restarting system.
+[   99.156000] wdg reset
+[   99.160000] release spi pin
+[   99.180000] normal reset
+
+===================================================================
+     MT7621   stage1 code Aug 28 2018 16:58:15 (ASIC)
+     CPU=500000000 HZ BUS=166666666 HZ
+==================================================================
+Change MPLL source from XTAL to CR...
+do MEMPLL setting..
+MEMPLL Config : 0x11100000
+3PLL mode + External loopback
+=== XTAL-40Mhz === DDR-1200Mhz ===
+PLL2 FB_DL: 0xc, 1/0 = 616/408 31000000
+PLL4 FB_DL: 0x12, 1/0 = 761/263 49000000
+PLL3 FB_DL: 0x13, 1/0 = 545/479 4D000000
+do DDR setting..[01F40000]
+Apply DDR3 Setting...(use customer AC)
+          0    8   16   24   32   40   48   56   64   72   80   88   96  104  112  120
+      --------------------------------------------------------------------------------
+0000:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+0001:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+0002:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+0003:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+0004:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+0005:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+0006:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+0007:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+0008:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+0009:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+000A:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+000B:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+000C:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+000D:|    0    0    0    0    0    0    0    0    0    0    0    0    1    1    1    1
+000E:|    0    0    0    0    0    0    1    1    1    1    1    1    1    1    1    1
+000F:|    0    0    1    1    1    1    1    1    1    1    1    0    0    0    0    0
+0010:|    1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0
+0011:|    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+0012:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+0013:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+0014:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+0015:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+0016:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+0017:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+0018:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+0019:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+001A:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+001B:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+001C:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+001D:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+001E:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+001F:|    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+DRAMC_DQSCTL1[0e0]=13000000
+DRAMC_DQSGCTL[124]=80000022
+rank 0 coarse = 14
+rank 0 fine = 88
+B:|    0    0    0    0    0    0    0    0    1    1    1    0    0    0    0    0
+opt_dle value:9
+DRAMC_DDR2CTL[07c]=C287221D
+DRAMC_PADCTL4[0e4]=000022B3
+DRAMC_DQIDLY1[210]=0D0D090F
+DRAMC_DQIDLY2[214]=0A0F0C0E
+DRAMC_DQIDLY3[218]=0C0A090A
+DRAMC_DQIDLY4[21c]=090A0B0A
+DRAMC_R0DELDLY[018]=00001E1E
+==================================================================
+RXDQS perbit delay software calibration 
+==================================================================
+1.0-15 bit dq delay value
+==================================================================
+bit|     0  1  2  3  4  5  6  7  8  9
+--------------------------------------
+0 |    14 9 13 12 13 11 14 10 10 8 
+10 |    10 11 10 10 9 8 
+--------------------------------------
+
+==================================================================
+2.dqs window
+x=pass dqs delay value (min~max)center 
+y=0-7bit DQ of every group
+input delay:DQS0 =30 DQS1 = 30
+==================================================================
+bitDQS0 bit      DQS1
+0  (1~58)29  8  (1~59)30
+1  (1~60)30  9  (1~58)29
+2  (2~58)30  10  (1~59)30
+3  (1~58)29  11  (1~58)29
+4  (1~58)29  12  (1~59)30
+5  (1~58)29  13  (1~58)29
+6  (1~58)29  14  (1~58)29
+7  (1~59)30  15  (1~57)29
+==================================================================
+3.dq delay value last
+==================================================================
+bit|    0  1  2  3  4  5  6  7  8   9
+--------------------------------------
+0 |    15 9 13 13 14 12 15 10 10 9 
+10 |    10 12 10 11 10 9 
+==================================================================
+==================================================================
+     TX  perbyte calibration 
+==================================================================
+DQS loop = 15, cmp_err_1 = ffff0000 
+dqs_perbyte_dly.last_dqsdly_pass[0]=15,  finish count=1 
+dqs_perbyte_dly.last_dqsdly_pass[1]=15,  finish count=2 
+DQ loop=15, cmp_err_1 = ffff0000
+dqs_perbyte_dly.last_dqdly_pass[0]=15,  finish count=1 
+dqs_perbyte_dly.last_dqdly_pass[1]=15,  finish count=2 
+byte:0, (DQS,DQ)=(8,8)
+byte:1, (DQS,DQ)=(8,8)
+DRAMC_DQODLY1[200]=88888888
+DRAMC_DQODLY2[204]=88888888
+20,data:88
+[EMI] DRAMC calibration passed
+
+===================================================================
+     MT7621   stage1 code done 
+     CPU=500000000 HZ BUS=166666666 HZ
+===================================================================
+
+
+U-Boot 1.1.3 (Jun  4 2020 - 11:22:20)
+
+Board: Ralink APSoC DRAM:  128 MB
+relocate_code Pointer at: 87fa0000
+
+Config XHCI 40M PLL 
+******************************
+Software System Reset Occurred
+******************************
+flash manufacture id: 20, device id 70 18
+find flash: XM25QH128
+============================================ 
+Ralink UBoot Version: 5.0.0.0
+-------------------------------------------- 
+ASIC MT7621A DualCore (MAC to MT7530 Mode)
+DRAM_CONF_FROM: Auto-Detection 
+DRAM_TYPE: DDR3 
+DRAM bus: 16 bit
+Xtal Mode=3 OCP Ratio=1/3
+Flash component: 16 MBytes NOR Flash
+Date:Jun  4 2020  Time:11:22:20
+============================================ 
+icache: sets:256, ways:4, linesz:32 ,total:32768
+dcache: sets:256, ways:4, linesz:32 ,total:32768 
+
+ ##### The CPU freq = 880 MHZ #### 
+
+ ##### The BUS freq = 220 MHZ #### 
+ estimate memory size =128 Mbytes
+#Reset_MT7530
+set LAN/WAN LLLLW
+
+=================================================
+Check image validation:
+Image1 Header Magic Number --> OK
+Image2 Header Magic Number --> OK
+Image1 Header Checksum --> OK
+Image2 Header Checksum --> OK
+Image1 Data Checksum --> OK
+Image2 Data Checksum --> OK
+Image1 rootfs Checksum --> OK
+Image2 rootfs Checksum --> OK
+
+Image1: OK Image2: OK
+
+=================================================
+
+Please choose the operation: 
+   1: Load system code to SDRAM via TFTP. 
+   2: Load system code then write to Flash via TFTP. 
+   3: Boot system code via Flash (default).
+   4: Entr boot command line interface.
+   7: Load Boot Loader code then write to Flash via Serial. 
+   9: Load Boot Loader code then write to Flash via TFTP. 
+default: 3
+---------------B-LINK Information---------------
+Version: 1.1.7_20200305_7621DA
+Chip   : MT7621DA
+GPIO   : 18
+WAN/LAN: LLLLW
+--------------------END-------------------------
+ 4  3  2  1  0 
+   
+3: System Boot system code via Flash.
+## Booting image at bc050000 ...
+Erasing SPI Flash...
+.
+Writing to SPI Flash...
+.
+done
+   Image Name:   MIPS OpenWrt-3.10.108
+   Image Type:   MIPS Linux Kernel Image (lzma compressed)
+   Data Size:    1437855 Bytes =  1.4 MB
+   Load Address: 81001000
+   Entry Point:  81001000
+   Verifying Checksum ... OK
+   Uncompressing Kernel Image ... OK
+No initrd
+## Transferring control to Linux (at address 81001000) ...
+## Giving linux memsize in MB, 128
+
+Starting kernel ...
+
+
+LINUX started...
+
+ THIS IS ASIC
+
+SDK 5.0.S.0
+[    0.000000] Linux version 3.10.108 (openwrt@localhost.localdomain) (gcc version 4.8.3 (OpenWrt/Linaro GCC 4.8-2014.04 unknown) ) #19 SMP Fri Jul 3 17:48:50 CST 2020
+[    0.000000] 
+[    0.000000]  The CPU feqenuce set to 880 MHz
+[    0.000000] GCMP present
+[    0.000000] CPU0 revision is: 0001992f (MIPS 1004Kc)
+[    0.000000] Software DMA cache coherency
+[    0.000000] Determined physical RAM map:
+[    0.000000]  memory: 08000000 @ 00000000 (usable)
+[    0.000000] Initrd not found or empty - disabling initrd
+[    0.000000] Zone ranges:
+[    0.000000]   DMA      [mem 0x00000000-0x00ffffff]
+[    0.000000]   Normal   [mem 0x01000000-0x07ffffff]
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x00000000-0x07ffffff]
+[    0.000000] Detected 3 available secondary CPU(s)
+[    0.000000] Primary instruction cache 32kB, 4-way, VIPT, linesize 32 bytes.
+[    0.000000] Primary data cache 32kB, 4-way, PIPT, no aliases, linesize 32 bytes
+[    0.000000] MIPS secondary cache 256kB, 8-way, linesize 32 bytes.
+[    0.000000] PERCPU: Embedded 7 pages/cpu @81530000 s6080 r8192 d14400 u32768
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+[    0.000000] Kernel command line: console=ttyS1,57600n8 root=/dev/mtdblock5 rootfstype=squashfs,jffs2
+[    0.000000] PID hash table entries: 512 (order: -1, 2048 bytes)
+[    0.000000] Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+[    0.000000] Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+[    0.000000] Writing ErrCtl register=0000000a
+[    0.000000] Readback ErrCtl register=0000000a
+[    0.000000] Memory: 125536k/131072k available (3185k kernel code, 5536k reserved, 758k data, 212k init, 0k highmem)
+[    0.000000] Hierarchical RCU implementation.
+[    0.000000] NR_IRQS:128
+[    0.000000] console [ttyS1] enabled
+[    0.120000] Calibrating delay loop... 577.53 BogoMIPS (lpj=1155072)
+[    0.160000] pid_max: default: 32768 minimum: 301
+[    0.164000] Mount-cache hash table entries: 512
+[    0.168000] launch: starting cpu1
+[    0.172000] launch: cpu1 gone!
+[    0.172000] Primary instruction cache 32kB, 4-way, VIPT, linesize 32 bytes.
+[    0.172000] Primary data cache 32kB, 4-way, PIPT, no aliases, linesize 32 bytes
+[    0.172000] MIPS secondary cache 256kB, 8-way, linesize 32 bytes.
+[    0.172000] CPU1 revision is: 0001992f (MIPS 1004Kc)
+[    0.204000] Synchronize counters for CPU 1: done.
+[    0.212000] launch: starting cpu2
+[    0.216000] launch: cpu2 gone!
+[    0.216000] Primary instruction cache 32kB, 4-way, VIPT, linesize 32 bytes.
+[    0.216000] Primary data cache 32kB, 4-way, PIPT, no aliases, linesize 32 bytes
+[    0.216000] MIPS secondary cache 256kB, 8-way, linesize 32 bytes.
+[    0.216000] CPU2 revision is: 0001992f (MIPS 1004Kc)
+[    0.248000] Synchronize counters for CPU 2: done.
+[    0.256000] launch: starting cpu3
+[    0.260000] launch: cpu3 gone!
+[    0.260000] Primary instruction cache 32kB, 4-way, VIPT, linesize 32 bytes.
+[    0.260000] Primary data cache 32kB, 4-way, PIPT, no aliases, linesize 32 bytes
+[    0.260000] MIPS secondary cache 256kB, 8-way, linesize 32 bytes.
+[    0.260000] CPU3 revision is: 0001992f (MIPS 1004Kc)
+[    0.288000] Synchronize counters for CPU 3: done.
+[    0.296000] Brought up 4 CPUs
+[    0.300000] NET: Registered protocol family 16
+[    0.600000] release PCIe RST: RALINK_RSTCTRL = 7000000
+[    0.604000] PCIE PHY initialize
+[    0.608000] ***** Xtal 40MHz *****
+[    0.612000] start MT7621 PCIe register access
+[    1.204000] RALINK_RSTCTRL = 7000000
+[    1.208000] RALINK_CLKCFG1 = 77ffeff8
+[    1.212000] 
+[    1.212000] *************** MT7621 PCIe RC mode *************
+[    1.708000] PCIE2 no card, disable it(RST&CLK)
+[    1.712000] pcie_link status = 0x3
+[    1.716000] RALINK_RSTCTRL= 3000000
+[    1.720000] *** Configure Device number setting of Virtual PCI-PCI bridge ***
+[    1.724000] RALINK_PCI_PCICFG_ADDR = 21007f2 -> 21007f2
+[    1.728000] PCIE0 enabled
+[    1.732000] PCIE1 enabled
+[    1.736000] interrupt enable status: 300000
+[    1.740000] Port 1 N_FTS = 1b105000
+[    1.744000] Port 0 N_FTS = 1b105000
+[    1.748000] config reg done
+[    1.752000] init_rt2880pci done
+[    1.768000] bio: create slab <bio-0> at 0
+[    1.772000] PCI host bridge to bus 0000:00
+[    1.776000] pci_bus 0000:00: root bus resource [mem 0x60000000-0x6fffffff]
+[    1.780000] pci_bus 0000:00: root bus resource [io  0x1e160000-0x1e16ffff]
+[    1.784000] pci_bus 0000:00: No busn resource found for root bus, will use [bus 00-ff]
+[    1.788000] pci 0000:00:00.0: BAR 0: can't assign mem (size 0x80000000)
+[    1.792000] pci 0000:00:01.0: BAR 0: can't assign mem (size 0x80000000)
+[    1.796000] pci 0000:00:00.0: BAR 9: assigned [mem 0x60000000-0x601fffff pref]
+[    1.800000] pci 0000:00:01.0: BAR 8: assigned [mem 0x60200000-0x602fffff]
+[    1.804000] pci 0000:00:00.0: BAR 1: assigned [mem 0x60300000-0x6030ffff]
+[    1.808000] pci 0000:00:01.0: BAR 1: assigned [mem 0x60310000-0x6031ffff]
+[    1.812000] pci 0000:01:00.0: BAR 0: assigned [mem 0x60000000-0x600fffff 64bit pref]
+[    1.816000] pci 0000:01:00.0: BAR 2: assigned [mem 0x60100000-0x60103fff 64bit pref]
+[    1.820000] pci 0000:01:00.0: BAR 4: assigned [mem 0x60104000-0x60104fff 64bit pref]
+[    1.824000] pci 0000:00:00.0: PCI bridge to [bus 01]
+[    1.828000] pci 0000:00:00.0:   bridge window [mem 0x60000000-0x601fffff pref]
+[    1.832000] pci 0000:02:00.0: BAR 0: assigned [mem 0x60200000-0x602fffff]
+[    1.836000] pci 0000:00:01.0: PCI bridge to [bus 02]
+[    1.840000] pci 0000:00:01.0:   bridge window [mem 0x60200000-0x602fffff]
+[    1.844000] BAR0 at slot 0 = 0
+[    1.848000] bus=0x0, slot = 0x0
+[    1.852000] res[0]->start = 0
+[    1.856000] res[0]->end = 0
+[    1.860000] res[1]->start = 60300000
+[    1.864000] res[1]->end = 6030ffff
+[    1.868000] res[2]->start = 0
+[    1.872000] res[2]->end = 0
+[    1.876000] res[3]->start = 0
+[    1.880000] res[3]->end = 0
+[    1.884000] res[4]->start = 0
+[    1.888000] res[4]->end = 0
+[    1.892000] res[5]->start = 0
+[    1.896000] res[5]->end = 0
+[    1.900000] BAR0 at slot 1 = 0
+[    1.904000] bus=0x0, slot = 0x1
+[    1.908000] res[0]->start = 0
+[    1.912000] res[0]->end = 0
+[    1.916000] res[1]->start = 60310000
+[    1.920000] res[1]->end = 6031ffff
+[    1.924000] res[2]->start = 0
+[    1.928000] res[2]->end = 0
+[    1.932000] res[3]->start = 0
+[    1.936000] res[3]->end = 0
+[    1.940000] res[4]->start = 0
+[    1.944000] res[4]->end = 0
+[    1.948000] res[5]->start = 0
+[    1.952000] res[5]->end = 0
+[    1.956000] bus=0x1, slot = 0x0, irq=0x4
+[    1.960000] res[0]->start = 60000000
+[    1.964000] res[0]->end = 600fffff
+[    1.968000] res[1]->start = 0
+[    1.972000] res[1]->end = 0
+[    1.976000] res[2]->start = 60100000
+[    1.980000] res[2]->end = 60103fff
+[    1.984000] res[3]->start = 0
+[    1.988000] res[3]->end = 0
+[    1.992000] res[4]->start = 60104000
+[    1.996000] res[4]->end = 60104fff
+[    2.000000] res[5]->start = 0
+[    2.004000] res[5]->end = 0
+[    2.008000] bus=0x2, slot = 0x1, irq=0x18
+[    2.012000] res[0]->start = 60200000
+[    2.016000] res[0]->end = 602fffff
+[    2.020000] res[1]->start = 0
+[    2.024000] res[1]->end = 0
+[    2.028000] res[2]->start = 0
+[    2.032000] res[2]->end = 0
+[    2.036000] res[3]->start = 0
+[    2.040000] res[3]->end = 0
+[    2.044000] res[4]->start = 0
+[    2.048000] res[4]->end = 0
+[    2.052000] res[5]->start = 0
+[    2.056000] res[5]->end = 0
+[    2.060000] Switching to clocksource MIPS
+[    2.064000] NET: Registered protocol family 2
+[    2.072000] TCP established hash table entries: 1024 (order: 1, 8192 bytes)
+[    2.088000] TCP bind hash table entries: 1024 (order: 1, 8192 bytes)
+[    2.100000] TCP: Hash tables configured (established 1024 bind 1024)
+[    2.112000] TCP: reno registered
+[    2.120000] UDP hash table entries: 256 (order: 1, 8192 bytes)
+[    2.132000] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+[    2.144000] NET: Registered protocol family 1
+[    2.156000] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    2.168000] jffs2: version 2.2. (NAND) (SUMMARY)  (LZMA) (RTIME) (CMODE_PRIORITY) (c) 2001-2006 Red Hat, Inc.
+[    2.188000] io scheduler noop registered (default)
+[    2.196000] reg_int_mask=0, INT_MASK= 0 
+[    2.204000] HSDMA_init
+[    2.208000] 
+[    2.208000]  hsdma_phy_tx_ring0 = 0x00c00000, hsdma_tx_ring0 = 0xa0c00000
+[    2.228000] 
+[    2.228000]  hsdma_phy_rx_ring0 = 0x00c04000, hsdma_rx_ring0 = 0xa0c04000
+[    2.244000] TX_CTX_IDX0 = 0
+[    2.248000] TX_DTX_IDX0 = 0
+[    2.256000] RX_CRX_IDX0 = 3ff
+[    2.260000] RX_DRX_IDX0 = 0
+[    2.264000] set_fe_HSDMA_glo_cfg
+[    2.272000] HSDMA_GLO_CFG = 465
+[    2.284000] Serial: 8250/16550 driver, 2 ports, IRQ sharing disabled
+[    2.296000] serial8250: ttyS0 at MMIO 0x1e000d00 (irq = 27) is a 16550A
+[    2.312000] serial8250: ttyS1 at MMIO 0x1e000c00 (irq = 26) is a 16550A
+[    2.324000] Ralink gpio driver initialized
+[    2.332000] Enable Ralink GDMA Controller Module 
+[    2.340000] GDMA IP Version=3
+[    2.348000] flash manufacture id: 20, device id 70 18
+[    2.360000] XM25QH128(20 70180000) (16384 Kbytes)
+[    2.368000] mtd .name = raspi, .size = 0x01000000 (16M) .erasesize = 0x00010000 (64K) .numeraseregions = 0
+[    2.388000] Creating 7 MTD partitions on "raspi":
+[    2.396000] 0x000000000000-0x000001000000 : "ALL"
+[    2.408000] 0x000000000000-0x000000030000 : "Bootloader"
+[    2.420000] 0x000000030000-0x000000040000 : "Config"
+[    2.428000] 0x000000040000-0x000000050000 : "Factory"
+[    2.440000] 0x000000050000-0x0000007a0000 : "firmware"
+[    2.452000] 0x0000001af0df-0x0000007a0000 : "rootfs"
+[    2.460000] mtd: partition "rootfs" must either start or end on erase block boundary or be smaller than an erase block -- forcing read-only
+[    2.488000] 0x0000007a0000-0x0000008b0000 : "rootfs_data"
+[    2.500000] 0x0000008b0000-0x000001000000 : "firmware2"
+[    2.512000] 0x000000a0f0df-0x000001000000 : "rootfs2"
+[    2.520000] mtd: partition "rootfs2" must either start or end on erase block boundary or be smaller than an erase block -- forcing read-only
+[    2.548000] GMAC1_MAC_ADRH -- : 0x00003801
+[    2.556000] GMAC1_MAC_ADRL -- : 0x46fd4a7d
+[    2.564000] Ralink APSoC Ethernet Driver Initilization. v3.1  1024 rx/tx descriptors allocated, mtu = 1500!
+[    2.584000] GMAC1_MAC_ADRH -- : 0x00003801
+[    2.592000] GMAC1_MAC_ADRL -- : 0x46fd4a7d
+[    2.600000] PROC INIT OK!
+[    2.604000] TCP: cubic registered
+[    2.612000] NET: Registered protocol family 10
+[    2.620000] NET: Registered protocol family 17
+[    2.632000] Bridge firewalling registered
+[    2.640000] 8021q: 802.1Q VLAN Support v1.8
+[    2.652000] VFS: Mounted root (squashfs filesystem) readonly on device 31:5.
+[    2.668000] Freeing unused kernel memory: 212K
+[    3.004000] init: Console is alive
+[    3.956000] usbcore: registered new interface driver usbfs
+[    3.968000] usbcore: registered new interface driver hub
+[    3.980000] usbcore: registered new device driver usb
+[    3.996000] SCSI subsystem initialized
+[    4.008000] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    4.020000] ehci-platform: EHCI generic platform driver
+[    4.036000] usbcore: registered new interface driver usb-storage
+[    5.020000] init: - preinit -
+[    5.528000] 38: 1:46:FFFFFFFD:4A:7D
+[    5.536000] Raeth v3.1 (Tasklet)
+[    5.544000] set CLK_CFG_0 = 0x40a00020!!!!!!!!!!!!!!!!!!1
+[    5.560000] phy_free_head is 0xc08000!!!
+[    5.568000] phy_free_tail_phy is 0xc09ff0!!!
+[    5.576000] txd_pool=a0c10000 phy_txd_pool=00C10000
+[    5.584000] ei_local->skb_free start address is 0x87e826e0.
+[    5.596000] free_txd: 00c10010, ei_local->cpu_ptr: 00C10000
+[    5.608000]  POOL  HEAD_PTR | DMA_PTR | CPU_PTR 
+[    5.616000] ----------------+---------+--------
+[    5.628000]      0xa0c10000 0x00C10000 0x00C10000
+[    5.636000] 
+[    5.636000] phy_qrx_ring = 0x00c0a000, qrx_ring = 0xa0c0a000
+[    5.652000] 
+[    5.652000] phy_rx_ring0 = 0x00c0c000, rx_ring[0] = 0xa0c0c000
+[    5.688000] MT7530 Reset Completed!!
+[    5.700000] change HW-TRAP to 0x17c8f
+[    5.708000] set LAN/WAN LLLLW
+[    5.720000] GMAC1_MAC_ADRH -- : 0x00003801
+[    5.728000] GMAC1_MAC_ADRL -- : 0x46fd4a7d
+[    5.736000] GDMA2_MAC_ADRH -- : 0x00003801
+[    5.744000] GDMA2_MAC_ADRL -- : 0x46fd4a7e
+[    5.752000] eth1: ===> VirtualIF_open
+[    5.760000] MT7621 GE2 link rate to 1G
+[    5.768000] CDMA_CSG_CFG = 81000000
+[    5.768000] ethernet: port4 linkup(interrupt)
+[    5.784000] GDMA1_FWD_CFG = 20710000
+[    5.792000] GDMA2_FWD_CFG = 20710000
+Press the [f] key and hit [enter] to enter failsafe mode
+Press the [1], [2], [3] or [4] key and hit [enter] to select the debug level
+mount_root.
+emmc_partition_find(0x5d9008, rootfs_data)
+(null) is not created by block2mtd, skip.
+[    9.080000] block: attempting to load /etc/config/fstab
+[    9.092000] block: unable to load configuration (fstab: Entry not found)
+[    9.104000] block: no usable configuration
+jffs2 is ready
+No jffs2 marker was found
+[    9.152000] jffs2: notice: (294) jffs2_build_xattr_subsystem: complete building xattr subsystem, 1 of xdatum (1 unchecked, 0 orphan) and 14 of xref (0 dead, 2 orphan) found.
+[    9.188000] block: attempting to load /etc/config/fstab
+[    9.200000] block: unable to load configuration (fstab: Entry not found)
+[    9.212000] block: no usable configuration
+switching to overlay
+[    9.232000] ra2880stop()...Done
+[    9.236000] eth1: ===> VirtualIF_close
+[    9.248000] Free TX/RX Ring Memory!
+[    9.260000] procd: - early -
+[    9.896000] procd: - ubus -
+[   10.908000] procd: - init -
+Please press Enter to activate this console.
+[   11.632000] fuse init (API version 7.22)
+[   11.644000]  init ok
+[   11.648000] welcome to use this module! version=1.1.4 date=20191128 author=nicexie
+[   12.180000] register rlt_drv
+[   12.192000] 
+[   12.192000] 
+[   12.192000] === pAd = c0781000, size = 2206344 ===
+[   12.192000] 
+[   12.212000] <-- RTMPAllocTxRxRingMemory, Status=0, ErrorValue=0x
+[   12.224000] <-- RTMPAllocAdapterBlock, Status=0
+[   12.232000] pAd->CSRBaseAddress =0xc0680000, csr_addr=0xc0680000!
+[   12.244000] device_id =0x7603
+[   12.252000] RtmpChipOpsHook(474): Not support for HIF_MT yet!
+[   12.260000] mt7603_init()-->
+[   12.268000] mt_bcn_buf_init(224): Not support for HIF_MT yet!
+[   12.280000] <--mt7603_init()
+[   12.284000] load_dev_l1profile() ===== Fix me =====
+[   13.460000] register mt_drv
+[   13.480000] 
+[   13.480000] 
+[   13.480000] === pAd = c1301000, size = 4349760 ===
+[   13.480000] 
+[   13.500000] <-- RTMPAllocAdapterBlock, Status=0
+[   13.508000] pAd->PciHif.CSRBaseAddress =0xc1200000, csr_addr=0xc1200000!
+[   13.520000] RTMPInitPCIeDevice():device_id=0x7663
+[   13.532000] mt_pci_chip_cfg(): HWVer=0x8a10, FWVer=0x8a01, pAd->ChipID=0x7663
+[   13.544000] mt7663_init()-->
+[   13.552000] <--mt7663_init()
+[   13.560000] <-- RTMPAllocTxRxRingMemory, Status=0
+[   13.568000] get_wdev_by_idx: invalid idx(0)
+[   13.576000] get_wdev_by_idx: invalid idx(0)
+[   13.588000] get_wdev_by_idx: invalid idx(0)
+[   13.596000] get_wdev_by_idx: invalid idx(0)
+[   13.604000] get_wdev_by_idx: invalid idx(0)
+[   13.612000] get_wdev_by_idx: invalid idx(0)
+[   13.620000] get_wdev_by_idx: invalid idx(0)
+[   13.632000] Ralink APSoC Hardware Watchdog Timer
+[   13.644000] rdm_major = 253
+[   13.660000] xt_time: kernel timezone is -0000
+[   13.680000] Ebtables v2.0 registered
+[   13.692000] ip_tables: (C) 2000-2006 Netfilter Core Team
+[   13.700000] Type=Restricted Cone
+[   13.720000] nf_conntrack version 0.5.0 (1964 buckets, 7856 max)
+[   13.736000] PPP generic driver version 2.4.2
+[   13.748000] NET: Registered protocol family 24
+[   14.956000] get_wdev_by_idx: invalid idx(0)
+[   14.984000] get_wdev_by_idx: invalid idx(0)
+[   15.416000] led=15, on=1, off=4000, blinks,=1, reset=1, time=4000
+[   15.428000] led=15, on=1, off=4000, blinks,=1, reset=1, time=4000
+[   15.484000] led=14, on=1, off=4000, blinks,=1, reset=1, time=4000
+[   15.500000] led=14, on=1, off=4000, blinks,=1, reset=1, time=4000
+[   15.500000] switch register base addr to system register 0xbe000000
+[   15.560000] write offset 0x60, value 0x405a8
+[   15.604000] led=14, on=1, off=4000, blinks,=1, reset=1, time=4000
+[   15.648000] led=15, on=4000, off=1, blinks,=1, reset=1, time=4000
+[   16.992000] get_wdev_by_idx: invalid idx(0)
+[   18.376000] 662 DHCP_Dns_fops_open
+[   18.384000] 669 DHCP_Dns_fops_write
+[   18.388000] buf: 0;0.0.0.0;00:00:00:00:00:00;myblink.cn
+[   18.388000] 
+[   18.404000] 688 DHCP_Dns_fops_write
+[   18.888000] get_wdev_by_idx: invalid idx(0)
+[   19.648000] 38: 1:46:FFFFFFFD:4A:7D
+[   19.652000] Raeth v3.1 (Tasklet)
+[   19.664000] set CLK_CFG_0 = 0x40a00020!!!!!!!!!!!!!!!!!!1
+[   19.680000] phy_free_head is 0xc5c000!!!
+[   19.688000] phy_free_tail_phy is 0xc5dff0!!!
+[   19.696000] txd_pool=a0c60000 phy_txd_pool=00C60000
+[   19.704000] ei_local->skb_free start address is 0x87e826e0.
+[   19.716000] free_txd: 00c60010, ei_local->cpu_ptr: 00C60000
+[   19.728000]  POOL  HEAD_PTR | DMA_PTR | CPU_PTR 
+[   19.736000] ----------------+---------+--------
+[   19.748000]      0xa0c60000 0x00C60000 0x00C60000
+[   19.756000] 
+[   19.756000] phy_qrx_ring = 0x00c5e000, qrx_ring = 0xa0c5e000
+[   19.772000] 
+[   19.772000] phy_rx_ring0 = 0x00c68000, rx_ring[0] = 0xa0c68000
+[   19.812000] MT7530 Reset Completed!!
+[   19.828000] change HW-TRAP to 0x17c8f
+[   19.836000] set LAN/WAN LLLLW
+[   19.848000] GMAC1_MAC_ADRH -- : 0x00003801
+[   19.856000] GMAC1_MAC_ADRL -- : 0x46fd4a7d
+[   19.864000] eth1: ===> VirtualIF_open
+[   19.872000] CDMA_CSG_CFG = 81000000
+[   19.872000] MT7621 GE2 link rate to 1G
+[   19.872000] ethernet: port4 linkup(interrupt)
+[   19.872000] get_wdev_by_idx: invalid idx(0)
+[   19.904000] GDMA1_FWD_CFG = 20710000
+[   19.908000] GDMA2_FWD_CFG = 20710000
+[   19.920000] device eth0 entered promiscuous mode
+[   19.936000] br-lan: port 1(eth0) entered listening state
+[   19.948000] br-lan: port 1(eth0) entered listening state
+[   19.960000] IPv6: ADDRCONF(NETDEV_UP): br-lan: link is not ready
+[   19.984000] GDMA2_MAC_ADRH -- : 0x00003801
+[   19.992000] GDMA2_MAC_ADRL -- : 0x46fd4a7e
+[   20.000000] eth1: ===> VirtualIF_open
+[   20.412000] get_wdev_by_idx: invalid idx(0)
+[   21.316000] load_dev_l1profile() ===== Fix me =====
+[   21.336000] E2pAccessMode=2
+[   21.344000] cfg_mode=9
+[   21.348000] cfg_mode=9
+[   21.352000] wmode_band_equal(): Band Equal!
+[   21.364000] APSDCapable[0]=1
+[   21.368000] APSDCapable[1]=1
+[   21.376000] APSDCapable[2]=1
+[   21.380000] APSDCapable[3]=1
+[   21.388000] APSDCapable[4]=1
+[   21.392000] APSDCapable[5]=1
+[   21.396000] APSDCapable[6]=1
+[   21.404000] APSDCapable[7]=1
+[   21.408000] APSDCapable[8]=1
+[   21.416000] APSDCapable[9]=1
+[   21.420000] APSDCapable[10]=1
+[   21.428000] APSDCapable[11]=1
+[   21.432000] APSDCapable[12]=1
+[   21.440000] APSDCapable[13]=1
+[   21.444000] APSDCapable[14]=1
+[   21.452000] APSDCapable[15]=1
+[   21.456000] default ApCliAPSDCapable[0]=1
+[   21.584000] Key1Str is Invalid key length(0) or Type(0)
+[   21.596000] Key1Str is Invalid key length(0) or Type(0)
+[   21.604000] Key1Str is Invalid key length(0) or Type(0)
+[   21.616000] Key1Str is Invalid key length(0) or Type(0)
+[   21.628000] Key2Str is Invalid key length(0) or Type(0)
+[   21.636000] Key2Str is Invalid key length(0) or Type(0)
+[   21.648000] Key2Str is Invalid key length(0) or Type(0)
+[   21.660000] Key2Str is Invalid key length(0) or Type(0)
+[   21.668000] Key3Str is Invalid key length(0) or Type(0)
+[   21.680000] Key3Str is Invalid key length(0) or Type(0)
+[   21.692000] Key3Str is Invalid key length(0) or Type(0)
+[   21.700000] Key3Str is Invalid key length(0) or Type(0)
+[   21.712000] Key4Str is Invalid key length(0) or Type(0)
+[   21.720000] Key4Str is Invalid key length(0) or Type(0)
+[   21.732000] Key4Str is Invalid key length(0) or Type(0)
+[   21.744000] Key4Str is Invalid key length(0) or Type(0)
+[   21.788000] AssocReqRssiThres = 0
+[   21.796000] KickStaRssiLow = 0
+[   21.800000] LedConfigMethod = 1
+[   21.808000] FW Version:CL173766_R
+[   21.816000] FW Build Date:20171110105932
+[   21.824000] CmdAddressLenReq:(ret = 0)
+[   21.832000] CmdFwStartReq: override = 1, address = 1048576
+[   21.844000] CmdStartDLRsp: WiFI FW Download Success
+[   21.864000] AsicDMASchedulerInit(): DMA Scheduler Mode=0(LMAC)
+[   21.872000] efuse_probe: efuse = 10000002
+[   21.880000] RtmpChipOpsEepromHook::e2p_type=2, inf_Type=5
+[   21.892000] RtmpEepromGetDefault::e2p_dafault=1
+[   21.900000] RtmpChipOpsEepromHook: E2P type(2), E2pAccessMode = 2, E2P default = 1
+[   21.916000] NVM is FLASH mode, flash_offset = 0x0
+[   21.924000] 1. Phy Mode = 14
+[   21.932000] @@@  NICReadEEPROMParameters : pAd->FWLoad=0 
+[   21.952000] br-lan: port 1(eth0) entered learning state
+[   22.100000] Country Region from e2p = ffff
+[   22.108000] tssi_1_target_pwr_g_band = 32
+[   22.116000] 2. Phy Mode = 14
+[   22.120000] 3. Phy Mode = 14
+[   22.124000] NICInitPwrPinCfg(14): Not support for HIF_MT yet!
+[   22.136000] NICInitializeAsic(588): Not support rtmp_mac_sys_reset () for HIF_MT yet!
+[   22.152000] mt_mac_init()-->
+[   22.160000] mt7603_init_mac_cr()-->
+[   22.164000] AsicSetMacMaxLen(1907): Set the Max RxPktLen=1024!
+[   22.176000] <--mt_mac_init()
+[   22.184000] WTBL Segment 1 info:
+[   22.188000] MemBaseAddr/FID:0x28000/0
+[   22.196000] EntrySize/Cnt:32/128
+[   22.204000] WTBL Segment 2 info:
+[   22.212000] MemBaseAddr/FID:0x40000/0
+[   22.220000] EntrySize/Cnt:64/128
+[   22.224000] WTBL Segment 3 info:
+[   22.232000] MemBaseAddr/FID:0x42000/64
+[   22.240000] EntrySize/Cnt:64/128
+[   22.248000] WTBL Segment 4 info:
+[   22.252000] MemBaseAddr/FID:0x44000/128
+[   22.260000] EntrySize/Cnt:32/128
+[   22.268000] AntCfgInit(2698): Not support for HIF_MT yet!
+[   22.280000] RTMPSetPhyMode(): channel out of range, use first ch=0
+[   22.292000] MCS Set = ff ff 00 00 01
+[   22.300000] [BuildAcsScanChList] Support channel: PrimCh=1, CentCh=255, DFS=0, skip 0
+[   22.312000] [BuildAcsScanChList] Support channel: PrimCh=2, CentCh=0, DFS=0, skip 0
+[   22.328000] [BuildAcsScanChList] Support channel: PrimCh=3, CentCh=1, DFS=0, skip 0
+[   22.344000] [BuildAcsScanChList] Support channel: PrimCh=4, CentCh=2, DFS=0, skip 0
+[   22.360000] [BuildAcsScanChList] Support channel: PrimCh=5, CentCh=3, DFS=0, skip 0
+[   22.376000] [BuildAcsScanChList] Support channel: PrimCh=6, CentCh=4, DFS=0, skip 0
+[   22.392000] [BuildAcsScanChList] Support channel: PrimCh=7, CentCh=5, DFS=0, skip 0
+[   22.404000] [BuildAcsScanChList] Support channel: PrimCh=8, CentCh=6, DFS=0, skip 0
+[   22.420000] [BuildAcsScanChList] Support channel: PrimCh=9, CentCh=7, DFS=0, skip 0
+[   22.436000] [BuildAcsScanChList] Support channel: PrimCh=10, CentCh=8, DFS=0, skip 0
+[   22.452000] [BuildAcsScanChList] Support channel: PrimCh=11, CentCh=9, DFS=0, skip 0
+[   22.468000] [BuildAcsScanChList] Support channel: PrimCh=12, CentCh=10, DFS=0, skip 0
+[   22.484000] [BuildAcsScanChList] Support channel: PrimCh=13, CentCh=11, DFS=0, skip 0
+[   23.956000] br-lan: topology change detected, propagating
+[   23.964000] br-lan: port 1(eth0) entered forwarding state
+[   24.396000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   24.604000] channel 1 busytime 10757
+[   26.508000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   26.716000] channel 2 busytime 10566
+[   28.628000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   28.836000] channel 3 busytime 6948
+[   28.844000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   29.056000] channel 4 busytime 6598
+[   29.064000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   29.276000] channel 5 busytime 5668
+[   29.284000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   29.496000] channel 6 busytime 7956
+[   29.504000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   29.716000] channel 7 busytime 5356
+[   29.724000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   29.936000] channel 8 busytime 4566
+[   29.944000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   30.156000] channel 9 busytime 6383
+[   30.164000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   30.376000] channel 10 busytime 10362
+[   30.384000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   30.600000] channel 11 busytime 14271
+[   30.612000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   30.820000] channel 12 busytime 6641
+[   30.832000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   31.040000] channel 13 busytime 1414
+[   31.044000]  ch1 bssid=34:53:d2:af:e2:e8
+[   31.052000]  ch1 bssid=08:95:2a:9b:7a:7f
+[   31.060000]  ch1 bssid=4c:19:5d:8d:d8:d8
+[   31.068000]  ch1 bssid=4c:19:5d:a0:04:04
+[   31.076000]  ch1 bssid=88:de:7c:ef:12:c4
+[   31.084000]  ch1 bssid=14:7d:05:e3:80:6b
+[   31.092000]  ch1 bssid=00:18:05:15:37:f1
+[   31.100000]  ch1 bssid=f4:05:95:c1:97:f4
+[   31.108000]  ch1 bssid=34:53:d2:de:6a:c2
+[   31.116000]  ch1 bssid=7c:db:98:8b:25:41
+[   31.124000]  ch1 bssid=08:7b:12:5c:f9:46
+[   31.132000]  ch1 bssid=2c:ea:dc:19:01:40
+[   31.140000]  ch4 bssid=c4:41:1e:82:13:41
+[   31.148000]  ch4 bssid=ca:41:1e:82:13:41
+[   31.156000]  ch6 bssid=f0:92:1c:fb:e3:99
+[   31.164000]  ch6 bssid=74:93:da:ba:85:b9
+[   31.168000]  ch6 bssid=2c:ea:dc:19:7f:70
+[   31.176000]  ch6 bssid=fc:12:63:25:08:c1
+[   31.184000]  ch6 bssid=7c:db:98:3d:3c:6f
+[   31.192000]  ch6 bssid=ac:91:9b:d9:47:9a
+[   31.200000]  ch6 bssid=b6:91:9b:d9:47:9a
+[   31.208000]  ch6 bssid=c8:b4:22:e1:ac:ec
+[   31.216000]  ch6 bssid=2c:ea:dc:19:66:e8
+[   31.224000]  ch6 bssid=80:ce:62:ab:93:ca
+[   31.232000]  ch6 bssid=88:de:7c:2d:a8:ed
+[   31.240000]  ch8 bssid=58:ef:68:be:65:71
+[   31.248000]  ch10 bssid=1e:bf:ce:a4:2f:9b
+[   31.256000]  ch10 bssid=b0:39:56:0f:ff:40
+[   31.264000]  ch11 bssid=34:53:d2:34:48:4e
+[   31.272000]  ch11 bssid=cc:40:d0:a9:d7:b9
+[   31.280000]  ch11 bssid=4c:19:5d:0f:fc:e1
+[   31.288000]  ch11 bssid=bc:96:e5:c3:1f:9f
+[   31.296000]  ch11 bssid=fa:b4:6a:08:5b:fb
+[   31.304000]  ch11 bssid=34:db:9c:79:d7:b6
+[   31.312000]  ch11 bssid=c8:b4:22:ac:11:6d
+[   31.320000]  ch11 bssid=5c:fa:25:ea:95:94
+[   31.328000]  ch11 bssid=f0:7b:65:19:ac:49
+[   31.336000]  ch11 bssid=bc:96:e5:c4:ee:32
+[   31.344000] =====================================================
+[   31.356000] Channel 1 : Dirty = 1002, False CCA = 0, Busy Time = 10757, Skip Channel = FALSE
+[   31.372000] Channel 2 : Dirty = 992, False CCA = 0, Busy Time = 10566, Skip Channel = FALSE
+[   31.388000] Channel 3 : Dirty = 944, False CCA = 0, Busy Time = 6948, Skip Channel = FALSE
+[   31.404000] Channel 4 : Dirty = 988, False CCA = 0, Busy Time = 6598, Skip Channel = FALSE
+[   31.420000] Channel 5 : Dirty = 832, False CCA = 0, Busy Time = 5668, Skip Channel = FALSE
+[   31.440000] Channel 6 : Dirty = 1010, False CCA = 0, Busy Time = 7956, Skip Channel = FALSE
+[   31.456000] Channel 7 : Dirty = 984, False CCA = 0, Busy Time = 5356, Skip Channel = FALSE
+[   31.472000] Channel 8 : Dirty = 948, False CCA = 0, Busy Time = 4566, Skip Channel = FALSE
+[   31.488000] Channel 9 : Dirty = 840, False CCA = 0, Busy Time = 6383, Skip Channel = FALSE
+[   31.504000] Channel 10 : Dirty = 820, False CCA = 0, Busy Time = 10362, Skip Channel = FALSE
+[   31.520000] Channel 11 : Dirty = 778, False CCA = 0, Busy Time = 14271, Skip Channel = FALSE
+[   31.536000] Channel 12 : Dirty = 220, False CCA = 0, Busy Time = 6641, Skip Channel = TRUE
+[   31.556000] Channel 13 : Dirty = 160, False CCA = 0, Busy Time = 1414, Skip Channel = TRUE
+[   31.572000] =====================================================
+[   31.584000] Rule 1 CCA value : Min Dirtiness (Include extension channel) ==> Select Channel 11 
+[   31.600000] Min Dirty = 778
+[   31.604000] ExChannel = 7 , 0
+[   31.612000] BW        = 40
+[   31.616000] [PMF]ap_pmf_init:: apidx=0, MFPC=0, MFPR=0, SHA256=0
+[   31.744000] [PMF]RTMPMakeRsnIeCap: RSNIE Capability MFPC=0, MFPR=0
+[   31.756000] [PMF]ap_pmf_init:: apidx=1, MFPC=0, MFPR=0, SHA256=0
+[   31.768000] [PMF]ap_pmf_init:: apidx=2, MFPC=0, MFPR=0, SHA256=0
+[   31.780000] [PMF]ap_pmf_init:: apidx=3, MFPC=0, MFPR=0, SHA256=0
+[   31.792000] AsicSetRalinkBurstMode(4322): Not support for HIF_MT yet!
+[   31.808000] RTMPSetPiggyBack(943): Not support for HIF_MT yet!
+[   31.828000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   31.836000] AsicSetTxPreamble(4309): Not support for HIF_MT yet!
+[   31.852000] AsicAddSharedKeyEntry(2073): Not support for HIF_MT yet!
+[   31.864000] The 8-BSSID mode is enabled, the BSSID byte5 MUST be the multiple of 8
+[   31.880000] AsicSetPreTbtt(): bss_idx=0, PreTBTT timeout = 0xa0
+[   31.892000] Main bssid = 38:01:46:fd:4a:7d
+[   31.900000] <==== rt28xx_init, Status=0
+[   31.916000] @@@ ed_monitor_exit : ===>
+[   31.924000] @@@ ed_monitor_exit : <===
+[   31.932000] mt7603_set_ed_cca: TURN OFF EDCCA  mac 0x10618 = 0x8564267c, EDCCA_Status=0
+[   31.948000] WiFi Startup Cost (ra0): 10.632s
+[   31.956000] get_wdev_by_idx: invalid idx(0)
+[   31.964000] IPv6: ADDRCONF(NETDEV_CHANGE): br-lan: link becomes ready
+[   31.980000] Device Instance
+[   31.984000] WDEV 00:
+Name:ra0
+[   31.992000] Wdev(list) Idx:0
+[   32.000000]  Idx:4
+[   32.004000] WDEV 01:[   32.004000] get_wdev_by_idx: invalid idx(0)
+
+Name:ra1
+[   32.016000] Wdev(list) Idx:1
+[   32.024000]  Idx:7
+[   32.028000] WDEV 02:
+Name:ra2
+[   32.036000] Wdev(list) Idx:2
+[   32.040000]  Idx:8
+[   32.044000] WDEV 03:
+Name:ra3
+[   32.052000] Wdev(list) Idx:3
+[   32.060000]  Idx:9
+[   32.064000] WDEV 04:
+Name:apcli0
+[   32.068000] Wdev(list) Idx:4
+[   32.076000]  Idx:10
+[   32.080000] WDEV 05:
+[   32.084000] WDEV 06:
+[   32.088000] WDEV 07:
+[   32.096000] WDEV 08:
+[   32.100000] WDEV 09:
+[   32.104000] WDEV 10:
+[   32.108000] WDEV 11:
+[   32.112000] WDEV 12:
+[   32.116000] WDEV 13:
+[   32.120000] WDEV 14:
+[   32.128000] WDEV 15:
+[   32.132000] WDEV 16:
+[   32.140000] The 8-BSSID mode is enabled, the BSSID byte5 MUST be the multiple of 8
+[   32.152000] MTPciPollTxRxEmpty
+[   32.156000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   32.300000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   32.448000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   32.600000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   32.752000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   32.796000] AsicSetPreTbtt(): bss_idx=0, PreTBTT timeout = 0x0
+[   32.808000] RTMPSetPiggyBack(943): Not support for HIF_MT yet!
+[   32.824000] RT28xxPciAsicRadioOff(): Not support for HIF_MT yet!
+[   32.836000] RTMPDrvClose call RT28xxPciAsicRadioOff fail !!
+[   32.848000] tx_kickout_fail_count = 0
+[   32.852000] tx_timeout_fail_count = 0
+[   32.860000] rx_receive_fail_count = 0
+[   32.868000] alloc_cmd_msg = 115
+[   32.876000] free_cmd_msg = 115
+[   32.884000] Device Instance
+[   32.892000] WDEV 00:
+Name:rai0
+[   32.896000] Wdev(list) Idx:0
+[   32.904000]  Idx:5
+[   32.908000] WDEV 01:
+[   32.912000] WDEV 02:
+[   32.916000] WDEV 03:
+[   32.924000] WDEV 04:
+[   32.928000] WDEV 05:
+[   32.932000] WDEV 06:
+[   32.936000] WDEV 07:
+[   32.940000] WDEV 08:
+[   32.944000] WDEV 09:
+[   32.948000] WDEV 10:
+[   32.952000] WDEV 11:
+[   32.960000] WDEV 12:
+[   32.964000] WDEV 13:
+[   32.968000] WDEV 14:
+[   32.972000] WDEV 15:
+[   32.976000] WDEV 16:
+[   32.980000] WDEV 17:
+[   32.988000] get_wdev_by_idx: invalid idx(0)
+[   33.224000] device ra0 entered promiscuous mode
+[   33.516000] device ra1 entered promiscuous mode
+[   33.808000] device ra2 entered promiscuous mode
+[   34.104000] device ra3 entered promiscuous mode
+[   34.524000] load_dev_l1profile() ===== Fix me =====
+[   34.540000] E2pAccessMode=2
+[   34.544000] cfg_mode=9
+[   34.552000] cfg_mode=9
+[   34.556000] wmode_band_equal(): Band Equal!
+[   34.564000] APSDCapable[0]=1
+[   34.572000] APSDCapable[1]=1
+[   34.576000] APSDCapable[2]=1
+[   34.584000] APSDCapable[3]=1
+[   34.588000] APSDCapable[4]=1
+[   34.596000] APSDCapable[5]=1
+[   34.600000] APSDCapable[6]=1
+[   34.604000] APSDCapable[7]=1
+[   34.612000] APSDCapable[8]=1
+[   34.616000] APSDCapable[9]=1
+[   34.624000] APSDCapable[10]=1
+[   34.628000] APSDCapable[11]=1
+[   34.636000] APSDCapable[12]=1
+[   34.640000] APSDCapable[13]=1
+[   34.648000] APSDCapable[14]=1
+[   34.652000] APSDCapable[15]=1
+[   34.660000] default ApCliAPSDCapable[0]=1
+[   34.784000] Key1Str is Invalid key length(0) or Type(0)
+[   34.796000] Key1Str is Invalid key length(0) or Type(0)
+[   34.808000] Key1Str is Invalid key length(0) or Type(0)
+[   34.816000] Key1Str is Invalid key length(0) or Type(0)
+[   34.828000] Key2Str is Invalid key length(0) or Type(0)
+[   34.840000] Key2Str is Invalid key length(0) or Type(0)
+[   34.848000] Key2Str is Invalid key length(0) or Type(0)
+[   34.860000] Key2Str is Invalid key length(0) or Type(0)
+[   34.868000] Key3Str is Invalid key length(0) or Type(0)
+[   34.880000] Key3Str is Invalid key length(0) or Type(0)
+[   34.892000] Key3Str is Invalid key length(0) or Type(0)
+[   34.900000] Key3Str is Invalid key length(0) or Type(0)
+[   34.912000] Key4Str is Invalid key length(0) or Type(0)
+[   34.924000] Key4Str is Invalid key length(0) or Type(0)
+[   34.932000] Key4Str is Invalid key length(0) or Type(0)
+[   34.944000] Key4Str is Invalid key length(0) or Type(0)
+[   34.988000] AssocReqRssiThres = 0
+[   34.996000] KickStaRssiLow = 0
+[   35.004000] LedConfigMethod = 1
+[   35.008000] FW Version:CL173766_R
+[   35.016000] FW Build Date:20171110105932
+[   35.024000] AsicDMASchedulerInit(): DMA Scheduler Mode=0(LMAC)
+[   35.036000] efuse_probe: efuse = 10000002
+[   35.044000] RtmpChipOpsEepromHook::e2p_type=2, inf_Type=5
+[   35.052000] RtmpEepromGetDefault::e2p_dafault=1
+[   35.064000] RtmpChipOpsEepromHook: E2P type(2), E2pAccessMode = 2, E2P default = 1
+[   35.076000] NVM is FLASH mode, flash_offset = 0x0
+[   35.088000] 1. Phy Mode = 14
+[   35.092000] @@@  NICReadEEPROMParameters : pAd->FWLoad=1 
+[   35.104000] Country Region from e2p = ffff
+[   35.112000] tssi_1_target_pwr_g_band = 32
+[   35.120000] 2. Phy Mode = 14
+[   35.124000] 3. Phy Mode = 14
+[   35.132000] NICInitPwrPinCfg(14): Not support for HIF_MT yet!
+[   35.144000] NICInitializeAsic(588): Not support rtmp_mac_sys_reset () for HIF_MT yet!
+[   35.160000] mt_mac_init()-->
+[   35.164000] mt7603_init_mac_cr()-->
+[   35.172000] AsicSetMacMaxLen(1907): Set the Max RxPktLen=1024!
+[   35.184000] <--mt_mac_init()
+[   35.188000] WTBL Segment 1 info:
+[   35.196000] MemBaseAddr/FID:0x28000/0
+[   35.204000] EntrySize/Cnt:32/128
+[   35.212000] WTBL Segment 2 info:
+[   35.216000] MemBaseAddr/FID:0x40000/0
+[   35.224000] EntrySize/Cnt:64/128
+[   35.232000] WTBL Segment 3 info:
+[   35.236000] MemBaseAddr/FID:0x42000/64
+[   35.244000] EntrySize/Cnt:64/128
+[   35.252000] WTBL Segment 4 info:
+[   35.260000] MemBaseAddr/FID:0x44000/128
+[   35.268000] EntrySize/Cnt:32/128
+[   35.272000] AntCfgInit(2698): Not support for HIF_MT yet!
+[   35.284000] RTMPSetPhyMode(): channel out of range, use first ch=0
+[   35.296000] MCS Set = ff ff 00 00 01
+[   35.304000] [BuildAcsScanChList] Support channel: PrimCh=1, CentCh=255, DFS=0, skip 0
+[   35.320000] [BuildAcsScanChList] Support channel: PrimCh=2, CentCh=0, DFS=0, skip 0
+[   35.336000] [BuildAcsScanChList] Support channel: PrimCh=3, CentCh=1, DFS=0, skip 0
+[   35.352000] [BuildAcsScanChList] Support channel: PrimCh=4, CentCh=2, DFS=0, skip 0
+[   35.364000] [BuildAcsScanChList] Support channel: PrimCh=5, CentCh=3, DFS=0, skip 0
+[   35.380000] [BuildAcsScanChList] Support channel: PrimCh=6, CentCh=4, DFS=0, skip 0
+[   35.396000] [BuildAcsScanChList] Support channel: PrimCh=7, CentCh=5, DFS=0, skip 0
+[   35.412000] [BuildAcsScanChList] Support channel: PrimCh=8, CentCh=6, DFS=0, skip 0
+[   35.428000] [BuildAcsScanChList] Support channel: PrimCh=9, CentCh=7, DFS=0, skip 0
+[   35.440000] [BuildAcsScanChList] Support channel: PrimCh=10, CentCh=8, DFS=0, skip 0
+[   35.456000] [BuildAcsScanChList] Support channel: PrimCh=11, CentCh=9, DFS=0, skip 0
+[   35.472000] [BuildAcsScanChList] Support channel: PrimCh=12, CentCh=10, DFS=0, skip 0
+[   35.488000] [BuildAcsScanChList] Support channel: PrimCh=13, CentCh=11, DFS=0, skip 0
+[   35.508000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   35.720000] channel 1 busytime 9843
+[   35.728000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   35.940000] channel 2 busytime 6623
+[   35.948000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   36.160000] channel 3 busytime 1321
+[   36.168000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   36.380000] channel 4 busytime 4395
+[   36.388000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   36.600000] channel 5 busytime 2250
+[   36.608000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   36.820000] channel 6 busytime 8301
+[   36.828000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   37.040000] channel 7 busytime 3251
+[   37.048000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   37.260000] channel 8 busytime 2823
+[   37.268000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   37.480000] channel 9 busytime 1724
+[   37.488000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   37.700000] channel 10 busytime 5847
+[   37.708000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   37.920000] channel 11 busytime 15446
+[   37.928000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   38.140000] channel 12 busytime 5140
+[   38.152000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   38.360000] channel 13 busytime 84
+[   38.364000]  ch1 bssid=34:53:d2:de:6a:c2
+[   38.372000]  ch1 bssid=7c:db:98:8b:25:41
+[   38.380000]  ch1 bssid=2c:ea:dc:19:01:40
+[   38.388000]  ch1 bssid=34:53:d2:af:e2:e8
+[   38.396000]  ch1 bssid=88:de:7c:ef:12:c4
+[   38.404000]  ch1 bssid=14:7d:05:e3:80:6b
+[   38.412000]  ch1 bssid=00:18:05:15:37:f1
+[   38.420000]  ch1 bssid=f4:05:95:c1:97:f4
+[   38.428000]  ch1 bssid=08:7b:12:5c:f9:46
+[   38.436000]  ch1 bssid=08:95:2a:9b:7a:7f
+[   38.444000]  ch1 bssid=ec:6e:79:03:89:ae
+[   38.452000]  ch4 bssid=c4:41:1e:82:13:41
+[   38.460000]  ch6 bssid=7c:db:98:3d:3c:6f
+[   38.468000]  ch6 bssid=ac:91:9b:d9:47:9a
+[   38.472000]  ch6 bssid=b6:91:9b:d9:47:9a
+[   38.480000]  ch6 bssid=2c:ea:dc:19:66:e8
+[   38.488000]  ch6 bssid=80:ce:62:ab:93:ca
+[   38.496000]  ch6 bssid=f0:92:1c:fb:e3:99
+[   38.504000]  ch6 bssid=74:93:da:ba:85:b9
+[   38.512000]  ch6 bssid=2c:ea:dc:19:7f:70
+[   38.520000]  ch6 bssid=fc:12:63:25:08:c1
+[   38.528000]  ch6 bssid=88:de:7c:2d:a8:ed
+[   38.536000]  ch6 bssid=f0:7b:65:26:1b:00
+[   38.544000]  ch8 bssid=58:ef:68:be:65:71
+[   38.552000]  ch10 bssid=b0:39:56:0f:ff:40
+[   38.560000]  ch11 bssid=f0:7b:65:19:ac:49
+[   38.568000]  ch11 bssid=bc:96:e5:c3:1f:9f
+[   38.576000]  ch11 bssid=fa:b4:6a:08:5b:fb
+[   38.584000]  ch11 bssid=34:db:9c:79:d7:b6
+[   38.592000]  ch11 bssid=34:53:d2:34:48:4e
+[   38.600000]  ch11 bssid=cc:40:d0:a9:d7:b9
+[   38.608000]  ch11 bssid=4c:19:5d:0f:fc:e1
+[   38.616000]  ch11 bssid=5c:fa:25:ea:95:94
+[   38.624000]  ch11 bssid=c8:b4:22:ac:11:6d
+[   38.632000] =====================================================
+[   38.644000] Channel 1 : Dirty = 876, False CCA = 0, Busy Time = 9843, Skip Channel = FALSE
+[   38.660000] Channel 2 : Dirty = 928, False CCA = 0, Busy Time = 6623, Skip Channel = FALSE
+[   38.676000] Channel 3 : Dirty = 884, False CCA = 0, Busy Time = 1321, Skip Channel = FALSE
+[   38.692000] Channel 4 : Dirty = 918, False CCA = 0, Busy Time = 4395, Skip Channel = FALSE
+[   38.708000] Channel 5 : Dirty = 820, False CCA = 0, Busy Time = 2250, Skip Channel = FALSE
+[   38.728000] Channel 6 : Dirty = 952, False CCA = 0, Busy Time = 8301, Skip Channel = FALSE
+[   38.744000] Channel 7 : Dirty = 872, False CCA = 0, Busy Time = 3251, Skip Channel = FALSE
+[   38.760000] Channel 8 : Dirty = 840, False CCA = 0, Busy Time = 2823, Skip Channel = FALSE
+[   38.776000] Channel 9 : Dirty = 736, False CCA = 0, Busy Time = 1724, Skip Channel = FALSE
+[   38.792000] Channel 10 : Dirty = 702, False CCA = 0, Busy Time = 5847, Skip Channel = FALSE
+[   38.808000] Channel 11 : Dirty = 692, False CCA = 0, Busy Time = 15446, Skip Channel = FALSE
+[   38.824000] Channel 12 : Dirty = 192, False CCA = 0, Busy Time = 5140, Skip Channel = TRUE
+[   38.840000] Channel 13 : Dirty = 140, False CCA = 0, Busy Time = 84, Skip Channel = TRUE
+[   38.856000] =====================================================
+[   38.868000] Rule 1 CCA value : Min Dirtiness (Include extension channel) ==> Select Channel 11 
+[   38.888000] Min Dirty = 692
+[   38.892000] ExChannel = 7 , 0
+[   38.900000] BW        = 40
+[   38.904000] [PMF]ap_pmf_init:: apidx=0, MFPC=0, MFPR=0, SHA256=0
+[   39.032000] [PMF]RTMPMakeRsnIeCap: RSNIE Capability MFPC=0, MFPR=0
+[   39.044000] [PMF]ap_pmf_init:: apidx=1, MFPC=0, MFPR=0, SHA256=0
+[   39.056000] [PMF]ap_pmf_init:: apidx=2, MFPC=0, MFPR=0, SHA256=0
+[   39.068000] [PMF]ap_pmf_init:: apidx=3, MFPC=0, MFPR=0, SHA256=0
+[   39.080000] AsicSetRalinkBurstMode(4322): Not support for HIF_MT yet!
+[   39.092000] RTMPSetPiggyBack(943): Not support for HIF_MT yet!
+[   39.116000] CmdSetTxPowerCtrl PwrPercentageDelta = 0
+[   39.124000] AsicSetTxPreamble(4309): Not support for HIF_MT yet!
+[   39.140000] AsicAddSharedKeyEntry(2073): Not support for HIF_MT yet!
+[   39.152000] The 8-BSSID mode is enabled, the BSSID byte5 MUST be the multiple of 8
+[   39.168000] AsicSetPreTbtt(): bss_idx=0, PreTBTT timeout = 0xa0
+[   39.180000] Main bssid = 38:01:46:fd:4a:7d
+[   39.188000] <==== rt28xx_init, Status=0
+[   39.196000] @@@ ed_monitor_exit : ===>
+[   39.204000] @@@ ed_monitor_exit : <===
+[   39.208000] mt7603_set_ed_cca: TURN OFF EDCCA  mac 0x10618 = 0x8564267c, EDCCA_Status=0
+[   39.224000] WiFi Startup Cost (ra0): 4.700s
+[   39.236000] br-lan: port 2(ra0) entered listening state
+[   39.244000] br-lan: port 2(ra0) entered listening state
+[   39.280000] get_wdev_by_idx: invalid idx(0)
+[   39.552000] get_wdev_by_idx: invalid idx(0)
+[   40.536000] The 8-BSSID mode is enabled, the BSSID byte5 MUST be the multiple of 8
+[   40.552000] MTPciPollTxRxEmpty
+[   41.164000] AsicSetPreTbtt(): bss_idx=0, PreTBTT timeout = 0x0
+[   41.176000] RTMPSetPiggyBack(943): Not support for HIF_MT yet!
+[   41.192000] RT28xxPciAsicRadioOff(): Not support for HIF_MT yet!
+[   41.204000] RTMPDrvClose call RT28xxPciAsicRadioOff fail !!
+[   41.216000] tx_kickout_fail_count = 0
+[   41.224000] tx_timeout_fail_count = 0
+[   41.232000] rx_receive_fail_count = 0
+[   41.240000] alloc_cmd_msg = 69
+[   41.244000] free_cmd_msg = 69
+[   41.252000] br-lan: port 2(ra0) entered learning state
+[   41.264000] br-lan: port 2(ra0) entered disabled state
+[   44.332000] get_wdev_by_idx: invalid idx(0)
+[   49.384000] get_wdev_by_idx: invalid idx(0)
+[   54.432000] get_wdev_by_idx: invalid idx(0)
+[   59.480000] get_wdev_by_idx: invalid idx(0)
+[   64.528000] get_wdev_by_idx: invalid idx(0)
+[   69.560000] get_wdev_by_idx: invalid idx(0)
+[   74.592000] get_wdev_by_idx: invalid idx(0)
+[   79.624000] get_wdev_by_idx: invalid idx(0)
+[   84.656000] get_wdev_by_idx: invalid idx(0)
+[   89.688000] get_wdev_by_idx: invalid idx(0)
+[   93.048000] Device Instance
+[   93.052000] WDEV 00:
+Name:rai0
+[   93.060000] Wdev(list) Idx:0
+[   93.064000]  Idx:5
+[   93.068000] WDEV 01:
+[   93.076000] WDEV 02:
+[   93.080000] WDEV 03:
+[   93.084000] WDEV 04:
+[   93.088000] WDEV 05:
+[   93.092000] WDEV 06:
+[   93.096000] WDEV 07:
+[   93.100000] WDEV 08:
+[   93.108000] WDEV 09:
+[   93.112000] WDEV 10:
+[   93.116000] WDEV 11:
+[   93.120000] WDEV 12:
+[   93.124000] WDEV 13:
+[   93.128000] WDEV 14:
+[   93.132000] WDEV 15:
+[   93.136000] WDEV 16:
+[   93.144000] WDEV 17:
+[   94.720000] get_wdev_by_idx: invalid idx(0)
+[   99.752000] get_wdev_by_idx: invalid idx(0)
+[  104.784000] get_wdev_by_idx: invalid idx(0)
+[  109.816000] get_wdev_by_idx: invalid idx(0)
+[  114.848000] get_wdev_by_idx: invalid idx(0)
+[  119.880000] get_wdev_by_idx: invalid idx(0)
+[  124.912000] get_wdev_by_idx: invalid idx(0)
+[  129.944000] get_wdev_by_idx: invalid idx(0)
+[  134.976000] get_wdev_by_idx: invalid idx(0)
+[  140.008000] get_wdev_by_idx: invalid idx(0)

@@ -1,0 +1,237 @@
+BusyBox v1.23.2 (2020-06-29 17:51:00 CST) built-in shell (ash)
+
+  _______                     ________        __
+ |       |.-----.-----.-----.|  |  |  |.----.|  |_
+ |   -   ||  _  |  -__|     ||  |  |  ||   _||   _|
+ |_______||   __|_____|__|__||________||__|  |____|
+          |__| W I R E L E S S   F R E E D O M
+ -----------------------------------------------------
+ CHAOS CALMER (Chaos Calmer, unknown)
+ -----------------------------------------------------
+  * 1 1/2 oz Gin            Shake with a glassful
+  * 1/4 oz Triple Sec       of broken ice and pour
+  * 3/4 oz Lime Juice       unstrained into a goblet.
+  * 1 1/2 oz Orange Juice
+  * 1 tsp. Grenadine Syrup
+ -----------------------------------------------------
+
+cat /proc/mtd
+dev:    size   erasesize  name
+mtd0: 01000000 00010000 "ALL"
+mtd1: 00030000 00010000 "Bootloader"
+mtd2: 00010000 00010000 "Config"
+mtd3: 00010000 00010000 "Factory"
+mtd4: 00750000 00010000 "firmware"
+mtd5: 005f0f21 00010000 "rootfs"
+mtd6: 00110000 00010000 "rootfs_data"
+mtd7: 00750000 00010000 "firmware2"
+mtd8: 005f0f21 00010000 "rootfs2"
+
+cat /proc/version
+Linux version 3.10.108 (openwrt@blink.openwrt) (gcc version 4.8.3 (OpenWrt/Linaro GCC 4.8-2014.04 unknown) ) #19 SMP Fri Jul 3 17:48:50 CST 2020
+
+cat /proc/cpuinfo
+system type             : MT7621
+machine                 : Unknown
+processor               : 0
+cpu model               : MIPS 1004Kc V2.15
+BogoMIPS                : 577.53
+wait instruction        : yes
+microsecond timers      : yes
+tlb_entries             : 32
+extra interrupt vector  : yes
+hardware watchpoint     : yes, count: 4, address/irw mask: [0x0ffc, 0x0ffc, 0x0ffb, 0x0ffb]
+isa                     : mips1 mips2 mips32r1 mips32r2
+ASEs implemented        : mips16 dsp mt
+shadow register sets    : 1
+kscratch registers      : 0
+core                    : 0
+VPE                     : 0
+VCED exceptions         : not available
+VCEI exceptions         : not available
+
+processor               : 1
+cpu model               : MIPS 1004Kc V2.15
+BogoMIPS                : 577.53
+wait instruction        : yes
+microsecond timers      : yes
+tlb_entries             : 32
+extra interrupt vector  : yes
+hardware watchpoint     : yes, count: 4, address/irw mask: [0x0ffc, 0x0ffc, 0x0ffb, 0x0ffb]
+isa                     : mips1 mips2 mips32r1 mips32r2
+ASEs implemented        : mips16 dsp mt
+shadow register sets    : 1
+kscratch registers      : 0
+core                    : 0
+VPE                     : 1
+VCED exceptions         : not available
+VCEI exceptions         : not available
+
+processor               : 2
+cpu model               : MIPS 1004Kc V2.15
+BogoMIPS                : 577.53
+wait instruction        : yes
+microsecond timers      : yes
+tlb_entries             : 32
+extra interrupt vector  : yes
+hardware watchpoint     : yes, count: 4, address/irw mask: [0x0ffc, 0x0ffc, 0x0ffb, 0x0ffb]
+isa                     : mips1 mips2 mips32r1 mips32r2
+ASEs implemented        : mips16 dsp mt
+shadow register sets    : 1
+kscratch registers      : 0
+core                    : 1
+VPE                     : 0
+VCED exceptions         : not available
+VCEI exceptions         : not available
+
+processor               : 3
+cpu model               : MIPS 1004Kc V2.15
+BogoMIPS                : 577.53
+wait instruction        : yes
+microsecond timers      : yes
+tlb_entries             : 32
+extra interrupt vector  : yes
+hardware watchpoint     : yes, count: 4, address/irw mask: [0x0ffc, 0x0ffc, 0x0ffb, 0x0ffb]
+isa                     : mips1 mips2 mips32r1 mips32r2
+ASEs implemented        : mips16 dsp mt
+shadow register sets    : 1
+kscratch registers      : 0
+core                    : 1
+VPE                     : 1
+VCED exceptions         : not available
+VCEI exceptions         : not available
+
+cat /proc/meminfo
+MemTotal:         125748 kB
+MemFree:           74900 kB
+Buffers:            4652 kB
+Cached:            14292 kB
+SwapCached:            0 kB
+Active:             7024 kB
+Inactive:          13776 kB
+Active(anon):       1968 kB
+Inactive(anon):       72 kB
+Active(file):       5056 kB
+Inactive(file):    13704 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:          1908 kB
+Mapped:             1552 kB
+Shmem:               184 kB
+Slab:              13116 kB
+SReclaimable:       1984 kB
+SUnreclaim:        11132 kB
+KernelStack:         480 kB
+PageTables:          268 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:       62872 kB
+Committed_AS:       4928 kB
+VmallocTotal:    1048372 kB
+VmallocUsed:       16364 kB
+VmallocChunk:    1021528 kB
+
+cat /proc/partitions
+major minor  #blocks  name
+
+  31        0      16384 mtdblock0
+  31        1        192 mtdblock1
+  31        2         64 mtdblock2
+  31        3         64 mtdblock3
+  31        4       7488 mtdblock4
+  31        5       6083 mtdblock5
+  31        6       1088 mtdblock6
+  31        7       7488 mtdblock7
+  31        8       6083 mtdblock8
+
+cat /proc/cmdline
+console=ttyS1,57600n8 root=/dev/mtdblock5 rootfstype=squashfs,jffs2
+
+lsmod
+crc_ccitt               1019  1 ppp_async
+domain_login            3632  0
+ebt_802_3                736  0
+ebt_among               2384  0
+ebt_limit               1408  0
+ebt_mark                 768  0
+ebt_mark_m               640  0
+ebt_pkttype              560  0
+ebt_redirect             960  0
+ebt_stp                 1872  0
+ebt_vlan                 944  0
+ebtable_broute           784  0
+ebtable_filter           960  0
+ebtable_nat              960  0
+ebtables               17813  3 ebtable_nat
+ehci_hcd               36764  1 ehci_platform
+ehci_platform           2096  0
+fat                    55151  1 vfat
+fuse                   80545  0
+ip_tables              11085  5 iptable_nat
+ipt_MASQUERADE          1232  1
+ipt_REJECT              2288  2
+iptable_filter           704  1
+iptable_mangle          1024  1
+iptable_nat             1856  1
+iptable_raw              672  1
+mt7603e              1794943  0
+mt7663e              3509548  0
+nf_conntrack           53903  8 iptable_nat
+nf_conntrack_ipv4       5316  8
+nf_defrag_ipv4           854  1 nf_conntrack_ipv4
+nf_nat                 11903  5 iptable_nat
+nf_nat_ipv4             2782  1 iptable_nat
+nls_base                5726  8 vfat
+nls_cp437               4432  0
+nls_cp850               3664  0
+nls_iso8859_1           2896  0
+nls_iso8859_15          3408  0
+nls_utf8                 880  0
+ppp_async               8112  0
+ppp_generic            24594  3 pppoe
+pppoe                   9904  0
+pppox                   1514  1 pppoe
+ralink_wdt              1930  0
+rt_rdm                 68715  0
+scsi_mod               92114  2 usb_storage
+sd_mod                 30768  0
+slhc                    5067  1 ppp_generic
+usb_common              1160  1 usbcore
+usb_storage            40888  0
+usbcore               138033  3 usb_storage
+vfat                    9888  0
+x_tables               14487 30 ipt_MASQUERADE
+xt_CT                   2896  0
+xt_LOG                  7152  0
+xt_REDIRECT             1312  0
+xt_TCPMSS               2256  1
+xt_comment               512 32
+xt_conntrack            2320  7
+xt_limit                1504  1
+xt_mac                   656  0
+xt_mark                  688  0
+xt_multiport            1280  0
+xt_nat                  1200  0
+xt_state                 784  0
+xt_tcpudp               1776  6
+xt_time                 1888  0
+
+U-Boot CLI
+----------
+# printenv
+bootcmd=tftp
+bootdelay=5
+baudrate=57600
+ethaddr="44:33:4C:CC:DD:10"
+ipaddr=192.168.16.111
+serverip=192.168.16.123
+BootType=3
+Image1Try=18
+stdin=serial
+stdout=serial
+stderr=serial
