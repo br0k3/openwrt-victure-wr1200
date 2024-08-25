@@ -1,6 +1,6 @@
 ❗❗❗ DISCLAIMER ❗❗❗
 
-THIS IS FOR EDUCATIONAL PURPOSES ONLY! READ IN FULL BEFORE YOU DO ANYTHING.  MAKE SURE YOU UNDERSTAND STEPS. IF UNCLEAR ASK FIRST! I AM NOT RESPONSIBLE FOR BRICKING DEVICE OR IF ANYTHING GOING WRONG.
+THIS IS FOR EDUCATIONAL PURPOSES ONLY! READ IN FULL BEFORE YOU DO ANYTHING.  MAKE SURE YOU UNDERSTAND STEPS. IF UNCLEAR ASK FIRST! I AM NOT RESPONSIBLE FOR BRICKING DEVICE OR IF ANYTHING GOES WRONG.
 
 # openwrt-victure-wr1200
 Files and guide to upgrade router to newest OpenWrt.
@@ -43,7 +43,7 @@ Files and guide to upgrade router to newest OpenWrt.
 
 ## Loading New Firmware
 
-1. Scroll back through text (or dmesg if entered into console) and you will notice bootloader options menu text, basically:
+1. Scroll back through text (or dmesg if entered into console) and you will notice bootloader options menu text, basically:![screenshot_router_output](/screenshots/uboot_menu.png)
    - Option 1 loads initramfs-kernel.bin via TFTP into RAM
    - Option 2 loads sysupgrade.bin via TFTP into RAM and then writes it to flash, in one step
    - Option 4 enters the bootloader CLI (U-Boot environment)
